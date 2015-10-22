@@ -23,6 +23,6 @@
     
 7.  根据GitHub的提示，在本地的Git仓库下运行命令：
 
-    $ git remote add origin git@github.com:example/Git.git(本地库关联远程库)
+    $ git remote add origin https://github.com/alwaysrunning/example.git(本地库关联远程库)
 
 8.  $ git push -u origin master(将内容推送到远程)
