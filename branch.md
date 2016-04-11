@@ -22,14 +22,14 @@ git clone https://github.com/username/Spoon-Knife.git
 
 cd Spoon-Knife
 
-#进入本地克隆的项目
+进入本地克隆的项目
 
 git remote add upstream https://github.com/octocat/Spoon-Knife.git
 
-#添加与原始库的关联，名为upstream
+添加与原始库的关联，名为upstream
 
 git fetch upstream
-#从原始库上抓取最新更新
+从原始库上抓取最新更新
 
 4、修改代码并提交和PUSH
 
@@ -39,16 +39,16 @@ git commit -a -m 'Update README'
 
 git push origin master
 
-#提交push到远程自己的项目分支库
+提交push到远程自己的项目分支库
 
 git fetch upstream
 
-#抓取远程原始库的更新
+抓取远程原始库的更新
 
 git merge upstream/master
 
-#将抓取的更新合并到本地的库中
+将抓取的更新合并到本地的库中
 
 5、发送Pull Requests
 
-    进入自己的Spoon-Knife分支库，点击右上角的“Pull Request” 按钮，进入发送Pull Request界面。上方左边是原始库，右边为自己的分支库，在下方填写标题及评论。点击“Send pull request”按钮，则Pull Request 发送成功。然后就等原始库的维护人员审核，是否采用你的Pull Request，采用则你的代码更新会合并到原始库，完成代码贡献。
+进入自己的Spoon-Knife分支库，点击右上角的“Pull Request” 按钮，进入发送Pull Request界面。上方左边是原始库，右边为自己的分支库，在下方填写标题及评论。点击“Send pull request”按钮，则Pull Request 发送成功。然后就等原始库的维护人员审核，是否采用你的Pull Request，采用则你的代码更新会合并到原始库，完成代码贡献。
