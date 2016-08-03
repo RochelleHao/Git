@@ -26,3 +26,6 @@
     $ git remote add origin https://github.com/alwaysrunning/example.git(本地库关联远程库)
 
 8.  $ git push -u origin master(将内容推送到远程)
+
+Git指南
+http://www.bootcss.com/p/git-guide/
